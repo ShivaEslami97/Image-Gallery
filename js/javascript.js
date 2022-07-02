@@ -8,7 +8,7 @@ function generateHtml([v]) {
     <div class="item v${v}">
       <img src="images/${randomNumber(12)}.jpg" />
       <div class="item__overlay">
-       <button class="item__btn" >View</button>
+       <button class="item__btn btn btn__secondary" >View</button>
       </div>
     </div>
     `
