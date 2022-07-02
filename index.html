@@ -6,11 +6,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Image Gallery!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+  <header class="header">
+    <div class="container flex justify-content-between align-items-center">
+      <!-- logo -->
+      <a class="site-logo" href="index.html">
+        <i class="fa-brands fa-envira"></i>
+        Gallery
+      </a>
+      <!-- nav -->
+      <nav class="navbar flex">
+        <ul class="nav__list flex align-items-center">
+          <li class="nav__item"><a class="nav__link" href="#">Home</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Service</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Blog</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="btn btn__primary">buy now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="gallery container">
+    </section>
+  </main>
 
   <div class="overlay">
     <div class="overlay-inner">
@@ -18,10 +45,6 @@
       <img>
     </div>
   </div>
-
-  <section class="gallery">
-  </section>
-
 
   <script src="js/javascript.js"></script>
 </body>
